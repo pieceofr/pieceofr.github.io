@@ -10,14 +10,16 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-overviewIndex:
-  - title: Content
+overview:
+  - title: "Overview"
+    url: /b4v10/overview
+  - title: "Installation"
+    url: /b4v10/Installation
+  - title: "Detail Configuration"
     children:
-      - title: "Overview"
-        url: /b4v10/overview
-      - title: "Installation"
-        url: /docs/structure/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-      - title: "tilities"
-        url: /docs/Utilities/
+    - title: "bitmarkd config"
+      url: /b4v10/BitmarkdConf
+    - title: "recorderd config"
+      url: /b4v10/RecorderdConf
+  - title: "Utilities"
+    url: /b4v10/OverviewUtilComm

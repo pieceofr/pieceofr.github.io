@@ -1,3 +1,12 @@
+---
+title: "Recorderd Configuration"
+layout: single
+permalink: /b4v10/RecorderdConf
+sidebar:
+  nav: "overview"
+toc: true
+---
+
 ## Config file format
 
 The configuration language is Lua. [See more details](https://github.com/bitmark-inc/bitmarkd/wiki/Configuring-bitmarkd#config-file-format).

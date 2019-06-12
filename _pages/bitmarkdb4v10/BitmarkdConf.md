@@ -1,3 +1,12 @@
+---
+title: "Bitmarkd Configuration"
+layout: single
+permalink: /b4v10/BitmarkdConf
+sidebar:
+  nav: "overview"
+toc: true
+---
+
 ## Config file format
 
 The configuration language is Lua. The basic data structure in Lua is [table](https://www.lua.org/pil/2.5.html).
