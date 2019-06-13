@@ -1,11 +1,12 @@
 ---
 title: "Bitmark Full Node Overview"
 layout: single
-permalink: /b4v10/overview
+permalink: /b4v10/FullNodeOverview
 sidebar:
   nav: "overview"
 toc: true
 ---
+## The Full Node
 
 ![bitmark full node](https://i.imgur.com/TigGn2e.jpg)
 

@@ -1,24 +1,15 @@
-Table of Contents
-
-1.  [RPC flow](#orgcc3b947)
-    1.  [Initialization](#org9e7029b)
-    2.  [RPC protocol](#orgca4c6bd)
-    3.  [Environment (optional)](#org456c295)
-    4.  [Available methods](#orga8399f5)
-        1.  [Assets.Get](#orgb94d729)
-        2.  [Bitmark.Provenance](#orgf9d332b)
-        3.  [Bitmark.Transfer](#orgc7f2626)
-        4.  [Bitmarks.Create](#org7eb52a7)
-        5.  [Bitmarks.Proof](#org7db3cd5)
-        6.  [BlockOwner.Transfer](#org7b76ce0)
-        7.  [Node.Info](#org54faab5)
-        8.  [Node.List](#org54faab6)
-        9.  [Transaction.Status](#orgefb9638)
+---
+title: "Node Communication"
+layout: single
+permalink: /b4v10/rpc
+sidebar:
+  nav: "communication"
+toc: true
+---
+User can use RPC or HTTP RCP to communicate with bitmarkd. HTTP RCP has limited set of methods supported because of security concern. 
 
 
-<a id="orgcc3b947"></a>
-
-# RPC flow
+## RPC flow
 
 All following paragraphs are describing `bitmarkd` version `8.2`
 commit `b013d5e`

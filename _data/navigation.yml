@@ -12,7 +12,7 @@ main:
   #   url: /sitemap/
 overview:
   - title: "Overview"
-    url: /b4v10/overview
+    url: /b4v10/FullNodeOverview
   - title: "Installation"
     url: /b4v10/Installation
   - title: "Detail Configuration"
@@ -21,5 +21,13 @@ overview:
       url: /b4v10/BitmarkdConf
     - title: "recorderd config"
       url: /b4v10/RecorderdConf
-  - title: "Utilities"
+    - title: "discovery proxy config"
+      url: "b4v10/DiscoveryConf"
+  - title: "Utilities And Communication"
     url: /b4v10/OverviewUtilComm
+communication:
+  - title: "RPC"
+    url: /b4v10/rpc
+  - title: "HTTP RPC"
+    url: /b4v10/httprpc
+

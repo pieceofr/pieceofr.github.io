@@ -1,7 +1,13 @@
-Configuration
-=============
+---
+title: "Discovery , Bitcoin and Litecoin Configuration"
+layout: single
+permalink: /b4v10/DiscoveryConf
+sidebar:
+  nav: "overview"
+toc: true
+---
 
-Discovery
+## Discovery
 ---------
 
 Following secions are described under version 0.8, sample config file

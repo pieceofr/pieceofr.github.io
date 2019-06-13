@@ -1,10 +1,14 @@
+---
+title: "Node Communication"
+layout: single
+permalink: /b4v10/httprpc
+sidebar:
+  nav: "communication"
+toc: true
+---
+
 
 This document is based on bitmarkd **v8.1**.
-
-- [POST /bitmarkd/rpc](#POST-bitmarkdrpc)
-- [GET /bitmarkd/details](#GET-bitmarkddetails)
-- [GET /bitmarkd/peers](#GET-bitmarkdpeers)
-- [GET /bitmarkd/connections](#GET-bitmarkdconnections)
 
 Since the the GET APIs return sensitive information about the running node, you need to explictly specify the allowed hosts in the bitmarkd configuration, otherwise the APIs are not accessible.
 
