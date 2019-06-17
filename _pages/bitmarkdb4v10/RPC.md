@@ -3,7 +3,7 @@ title: "Node Communication"
 layout: single
 permalink: /b4v10/rpc
 sidebar:
-  nav: "utilities"
+  nav: "communication"
 toc: true
 ---
 
