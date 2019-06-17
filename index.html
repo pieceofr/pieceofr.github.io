@@ -1,6 +1,7 @@
 ---
 title: "Bitmark full-node Developer Corner"
 layout: splash
+classes: wide
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
@@ -23,21 +24,21 @@ feature_row:
   - image_path: assets/images/ico_blockchain_256.png
     title: "Bitmark blockchain"
     excerpt: "This section explains the bitmarkd blockchain."
-    url: "/b4v10/overview"
+    url: "/b4v10/Blockchain"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: assets/images/ico_miner_256.png
-    title: "Concensus and Mining"
-    excerpt: "This section explains concensus and how recorderd (miner) works"
-    url: "/b4v10/FullNodeOverview"
+  - image_path: assets/images/ico_network_256.png
+    alt: "Network"
+    title: "Network"
+    excerpt: "This section explains network structure of bitmarkd."
+    url: "/full-node/Network"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: assets/images/ico_payment_256.png
-    alt: "Payment System"
-    title: "Payment System"
-    excerpt: "This section explains the how bitmark full-node system works and how it interact with other cryptocoins"
-    url: "/full-node/SystemOverview"
+  - image_path: assets/images/ico_miner_256.png
+    title: "Concensus and Recorder"
+    excerpt: "This section explains concensus and how recorderd (miner) works"
+    url: "/b4v10/FullNodeOverview"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/ico_rpc_256.png
@@ -51,7 +52,14 @@ feature_row2:
     alt: "Command Line Tools"
     title: "Command Line Tools"
     excerpt: "Command line tools include bitmarkd-cli and more. The tools can use to perform 'issue','transcation' and etc. on our blockchain"
-    url: "/b4v10/overview"
+    url: "/b4v10/Cli"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: assets/images/ico_blog_256.png
+    title: "Bitmark Blogger"
+    excerpt: "Bitmark Blog Post"
+    url: "/b4v10/Blog"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
@@ -61,3 +69,5 @@ feature_row2:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" %}
+
+{% include feature_row id="feature_row3" %}

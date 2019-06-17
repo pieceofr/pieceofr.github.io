@@ -25,9 +25,20 @@ overview:
       url: "b4v10/DiscoveryConf"
   - title: "Utilities And Communication"
     url: /b4v10/OverviewUtilComm
+network:
+  - title: "Network"
+    url: /b4v10/network
 communication:
   - title: "RPC"
     url: /b4v10/rpc
   - title: "HTTP RPC"
     url: /b4v10/httprpc
-
+utilities:
+  - title: "BITMARK-CLI"
+    url: /b4v10/Cli
+  - title: "BITMARK-INFO"
+    url: /b4v10/Info
+  - title: "BITMARK-DUMPDB"
+    url: /b4v10/Dumpdb
+  - title: "WALLET"
+    url: "/b4v10/Wallet"

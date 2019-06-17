@@ -1,4 +1,11 @@
-
+---
+title: "Bitmark-Cli"
+layout: single
+permalink: /b4v10/Cli
+sidebar:
+  nav: "utilities"
+toc: true
+---
 
 # Quick setup (for testnet)
 

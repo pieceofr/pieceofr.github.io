@@ -3,9 +3,10 @@ title: "Node Communication"
 layout: single
 permalink: /b4v10/rpc
 sidebar:
-  nav: "communication"
+  nav: "utilities"
 toc: true
 ---
+
 User can use RPC or HTTP RCP to communicate with bitmarkd. HTTP RCP has limited set of methods supported because of security concern. 
 
 
