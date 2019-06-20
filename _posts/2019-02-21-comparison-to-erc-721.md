@@ -1,5 +1,6 @@
 ---
 title: "Comparison to ERC 721"
+author_profile: true
 ---
 Bitmark vs ERC 721
 ### Bitmark Issue

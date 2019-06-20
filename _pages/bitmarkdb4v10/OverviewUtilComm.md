@@ -8,18 +8,19 @@ toc: true
 ---
 ## Utilities
 ### bitmarkd-cli
-bitmarkd-cli is the cli program for bitmarkd. It can create identity, create assets, transfer ownership, showing provanance and show information of a node.
+bitmarkd-cli is the CLI program for bitmarkd. It can create identity, create assets, transfer ownership, show the provenance of an asset and show information of a node.
  
 ### bitmarkd-info
-you can use bitmarkd-info to basic information of a node
+you can use bitmarkd-info to get the basic information of a peer node
 
 ### bitmarkd-dumpdb
-You can dump chain database by using bitmarkd-dumpdb
+You can dump the chain database by using bitmarkd-dumpdb
+
 ### bitmark-wallet
-You use bitmark-wallet to pay for your bitamrk fee by litecoin or bitcoin
+You can use bitmark-wallet to pay for your bitamrk  transaction fee by litecoind or bitcoind
 
 ## Node Communication
-There are two communication protocle in bitmark full node. RPC and HTTP RPC. HTTP RPC is a limited set of RPC.
+There are two communication protocol in bitmark full node. RPC and HTTP RPC. HTTP RPC is a limited set of RPC.
 ### RPC
 
 See the RPC section of Node Communication

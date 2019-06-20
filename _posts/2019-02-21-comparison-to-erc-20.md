@@ -1,5 +1,6 @@
 ---
 title: "Comparison To ERC 20"
+author_profile: true
 ---
 
 ### Bitmark Issue Throughput

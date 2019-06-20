@@ -7,31 +7,6 @@ sidebar:
 toc: true
 ---
 
-## Config file format
-
-The configuration language is Lua. The basic data structure in Lua is [table](https://www.lua.org/pil/2.5.html).
-
-Use table to represent an array:
-
-```lua
-fibonacci = {1, 1, 2, 3, 5, 8, 13, 21}
-```
-
-Use table to represent a map:
-
-```lua
-family = {
-    sister = {
-        name = "Lisa"   
-    },
-    father = {
-        name = "nick"   
-    },
-    mother = {
-        name = "Elsa"
-    }
-}
-```
 
 ### Sample
 

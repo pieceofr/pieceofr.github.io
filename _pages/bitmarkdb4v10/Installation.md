@@ -40,45 +40,12 @@ There are ways to install payment service. For a beginner, discovery proxy is re
     User can turn on discovery proxy by setting the "use_discovery = true" in the bitmarkd.conf file.
 
 + Use internal discovery and install litecoind and bitcoind locally
-    To run this mode, a user needs to set the "use_discovery = false" and set up the connection to litecoind and bitcoind in payment section in bitmarkd.conf file.  For detail information, check bitmarkd detail configuration section.
+    To run this mode, a user needs to set the "use_discovery = false" and set up the connection to litecoind and bitcoind in payment section in bitmarkd.conf file. For detail information, check [bitmarkd detail configuration](/b4v10/BitmarkdConf) section.
     
 + Use local discovery proxy with litecoind, and bitcoind.
-    User can install [discovery proxy](https://github.com/bitmark-inc/discovery) in your local device. In this configuration, the user set up their own discovery proxy. The user has to install bitcoind and litecoind and configure the discovery proxy to connect to both services.
+    User can install [discovery proxy](https://github.com/bitmark-inc/discovery) in your local device. In this configuration, the user set up their own discovery proxy. The user has to install bitcoind and litecoind and configure the discovery proxy to connect to both services.For detail information, check [discovery detail configuration](/b4v10/DiscoveryConf) section.
 
 + Find how to install bitcoind and litecoind on their official website.    
     + [bitcoin](https://bitcoin.org/)
     + [litecoin](https://litecoin.org/)
   
-## Install full node services
-
-In order to run full node, you need to run 3 services. If you needs to do payment and operation on create asset, transfer asset and etc. you need to install utilities. 
-
-### Install bitmarkd
-Here is our [bitmarkd project repo](https://github.com/bitmark-inc/bitmarkd). Readme will give you the detail installation information.
-
-Master branch contains latest development code which may not test on our livenet or testnet. You should checkout specific version of release by using tag. You can use git tag --list to list out all release versions.
-
-In general, you can checkout out the latest version of code and build it. To get correct version of livenet and testnet, user can build bitmark-info utilities and acquire information to a livenet or testnet node.
-
-### Install recorderd
-
-recoderd is also in the [bitmarkd project repo](https://github.com/bitmark-inc/bitmarkd). After installing bitmarkd, user can install recorderd in the bitmarkd/command/recorderd directory. 
-
-### Discovery service
-
-There are ways to install payment service. For a beginner using discovery proxy is recommanded.
-
-+ Use discovery proxy
-
-    User can turn on discovery proxy buy set the "use_discovery = true" in the bitmarkd.conf file.
-
-+ Use internal discovery and install litecoind and bitcoind locally
-    To run this mode, user needs to set the "use_discovery = false" and set up the the connection to litecoind and bitcoind. Find how to install bitcoind and litecoind in their official website.
-    + [bitcoin](https://bitcoin.org/)
-    + [litecoin](https://litecoin.org/)
-    
-+ Use local discovery proxy, litecoin and bitcoin services.
-    User can install [discovery proxy](https://github.com/bitmark-inc/discovery) in your local device. In this configuration, user needs to install bitcoin and litecoin services . discovery proxy needs to connected to these two services. Find how to install bitcoind and litecoind in their official website.
-    
-    + [bitcoin](https://bitcoin.org/)
-    + [litecoin](https://litecoin.org/)
