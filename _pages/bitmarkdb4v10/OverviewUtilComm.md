@@ -9,11 +9,13 @@ toc: true
 ## Utilities
 ### bitmarkd-cli
 bitmarkd-cli is the CLI program for bitmarkd. It can create identity, create assets, transfer ownership, show the provenance of an asset and show information of a node.
- 
-### bitmarkd-info
-you can use bitmarkd-info to get the basic information of a peer node
+For more information, go to Command line tools [bitmarkd-cli](/b4v10/Cli) section
 
-### bitmarkd-dumpdb
+### bitmark-info
+you can use bitmarkd-info to get the basic information of a peer node
+For more information, go to Command line tools [bitmark-info](/b4v10/BitmarkInfo) section
+
+### bitmark-dumpdb
 You can dump the chain database by using bitmarkd-dumpdb
 
 ### bitmark-wallet
