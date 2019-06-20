@@ -1,9 +1,9 @@
 ---
-title: "Network"
+title: "Bitmark Protocol Overview"
 layout: single
-permalink: /b4v10/Network
+permalink: /b4v10/Rewarding
 sidebar:
-  nav: "network"
+  nav: "protocol"
 toc: true
 ---
 

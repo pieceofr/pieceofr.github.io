@@ -10,6 +10,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
 overview:
   - title: "Overview"
     url: /b4v10/FullNodeOverview
@@ -25,20 +26,45 @@ overview:
       url: "b4v10/DiscoveryConf"
   - title: "Utilities And Communication"
     url: /b4v10/OverviewUtilComm
+  - title: "<br><br>Report Issue"
+    url: "https://github.com/pieceofr/pieceofr.github.io/issues"
+protocol:
+  - title: "Protocol Overview"
+    url: /b4v10/Protocol
+  - title: "Terms in Bitmark"
+    url: /b4v10/Terms
+  - title: "Property Types"
+    url: /b4v10/PropertyType
+  - title: "Concensus"
+    url: /b4v10/Concensus
+  - title: "Rewarding"
+    url: /b4v10/Rewarding
+  - title: "<br><br>Report Issue"
+    url: "https://github.com/pieceofr/pieceofr.github.io/issues"
 network:
-  - title: "Network"
-    url: /b4v10/network
+  - title: "Network Overview"
+    url: /b4v10/Network
+  - title: "P2P"
+    url: /b4v10/P2P
+  - title: "Message Bus"
+    url: /b4v10/MessageBus
+  - title: "<br><br>Report Issue"
+    url: "https://github.com/pieceofr/pieceofr.github.io/issues"
 communication:
   - title: "RPC"
     url: /b4v10/rpc
   - title: "HTTP RPC"
     url: /b4v10/httprpc
+  - title: "<br><br>Report Issue"
+    url: "https://github.com/pieceofr/pieceofr.github.io/issues"
 utilities:
   - title: "BITMARK-CLI"
     url: /b4v10/Cli
   - title: "BITMARK-INFO"
-    url: /b4v10/Info
+    url: /b4v10/BitmarkInfo
   - title: "BITMARK-DUMPDB"
-    url: /b4v10/Dumpdb
+    url: /b4v10/DumpDB
   - title: "WALLET"
     url: "/b4v10/Wallet"
+  - title: "<br><br>Report Issue"
+    url: "https://github.com/pieceofr/pieceofr.github.io/issues"

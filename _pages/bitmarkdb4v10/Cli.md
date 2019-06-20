@@ -1,5 +1,5 @@
 ---
-title: "Bitmark-Cli"
+title: "bitmark-cli"
 layout: single
 permalink: /b4v10/Cli
 sidebar:

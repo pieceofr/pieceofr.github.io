@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bitmark Inc."
+title                    : "Developer Corner Home"
 title_separator          : "-"
 name                     : "Bitmark Inc."
 description              : "Bitmark Full-Node Developer Site"
@@ -35,7 +35,7 @@ comments:
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+    # https://developers.facebook.com/docs/plugins/1comments
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -106,24 +106,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bitmark Inc"
-  avatar           : "/assets/images/bitmark-logo-large.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Bitmark Inc."
+  avatar           : "/assets/images/ico_bitmark_logo_128.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Bitmark Blogger"
+  location         : "<br>Silicon Valley • USA<br>Taipei • TAIWAN<br>Da Nang • VIETNAM<br>Reykjavík • ICELAND"
+  email            : "security@bitmark.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://bitmark.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/bitmarkinc"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/bitmarkinc"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"

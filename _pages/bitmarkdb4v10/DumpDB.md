@@ -1,9 +1,9 @@
 ---
-title: "Network"
+title: "bitmark-dumpdb"
 layout: single
-permalink: /b4v10/Network
+permalink: /b4v10/DumpDB
 sidebar:
-  nav: "network"
+  nav: "utilities"
 toc: true
 ---
 
