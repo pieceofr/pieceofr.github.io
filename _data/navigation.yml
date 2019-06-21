@@ -64,7 +64,7 @@ utilities:
     url: /b4v10/BitmarkInfo
   - title: "BITMARK-DUMPDB"
     url: /b4v10/DumpDB
-  - title: "WALLET"
+  - title: "BITMARK-WALLET"
     url: "/b4v10/Wallet"
   - title: "<br><br>Report Issue"
     url: "https://github.com/pieceofr/pieceofr.github.io/issues"
