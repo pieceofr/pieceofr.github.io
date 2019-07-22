@@ -7,7 +7,7 @@ sidebar:
 toc: true
 ---
 
-User can use bitmark-info to get a peer node basic information locally or remotely. Query result returns information of network, block mode, rpc connection count, peer count, number of pending transcation and verified transcation, difficulty level, bitmarkd version number, peer node uptime and peer node publick key.
+User can use bitmark-info to get a peer node basic information locally or remotely. Query result returns information of network, block mode, rpc connection count, peer count, number of pending transcation and verified transcation, difficulty level, bitmarkd version number, peer node uptime and peer node publick key.  YES
 
 ### Installation Steps
 
